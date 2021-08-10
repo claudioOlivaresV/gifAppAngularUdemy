@@ -1,0 +1,12 @@
+
+<mat-toolbar class="mat-elevation-z8">
+    <button mat-icon-button  (click)="sidenav.toggle()" class="d-lg-none d-block">
+        <mat-icon *ngIf="!sidenav.opened">
+            menu
+        </mat-icon>
+        <mat-icon *ngIf="sidenav.opened">
+            close
+        </mat-icon>
+    </button>
+    Dragon Ball Z
+</mat-toolbar>

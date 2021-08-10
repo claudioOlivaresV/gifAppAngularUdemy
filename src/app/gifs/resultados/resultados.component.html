@@ -1,0 +1,18 @@
+
+<div class="row">
+    <div class="col-lg-3 col-12 my-3" *ngFor="let item of resultados">
+        <mat-card class="example-card animate__animated animate__fadeIn animate__faster">
+          
+            <img mat-card-image src="{{item.images.fixed_height.webp}}" alt="{{ item.title}}">
+            <mat-card-content>
+              <p>
+                {{ item.title}}
+
+              </p>
+            </mat-card-content>
+        
+          </mat-card>
+
+    </div>
+
+</div>

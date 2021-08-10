@@ -2,8 +2,12 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+
+
 export const environment = {
-  production: false
+  production: false,
+  urlBase: 'api.giphy.com/v1/gifs/search'
+  // ?api_key=sTxFy5PL8vVzH21aFAGCkzd871IAQfLN&q=dragon&limit=10
 };
 
 /*
